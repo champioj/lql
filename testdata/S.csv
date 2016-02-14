@@ -1,7 +1,6 @@
-PNO:Int4,PNAME:String32,COLOR:String32,WEIGHT:Int4,CITY:String32
-1,"Nut","Red",12,"London"
-2,"Bolt","Green",17,"Paris"
-3,"Screw","Blue",17,"Oslo"
-4,"Screw","Red",14,"London"
-5,"Cam","Blue",12,"Paris"
-6,"Cog","Red",19,"London"
+SNO:Int4,SNAME:String32,STATUS:Int4,CITY:String32
+1,"Smith",20,"London"
+2,"Jones",10,"Paris"
+3,"Blake",30,"Paris"
+4,"Clark",20,"London"
+5,"Adams",30,"Athens"

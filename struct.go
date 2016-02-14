@@ -115,7 +115,7 @@ func (r Relation) String() string {
 	w := new(tabwriter.Writer)
 
 	buf := new(bytes.Buffer)
-	w.Init(buf, 0, 10, 1, '\t', 0)
+	w.Init(buf, 0, 0, 1, ' ', 0)
 	for _, v := range r.H {
 		fmt.Fprintf(w, "%s:%s\t", v.Name, v.Typ.Name())
 	}
